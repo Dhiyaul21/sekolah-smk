@@ -1,0 +1,35 @@
+1. Pengertian praktik kerja lapangan
+praktik kerja lapangan adalah salah satu kegiatan yang menempatkan siswa untuk terlibat langsung dalam dunia kerja
+
+2. pengertian Rekayasa perangkat lunak
+Rekayasa perangkat lunak adalah satu bidang profesi yang mendalami cara cara pembuatan aplikasi, website, game , dan sebuah sistem
+
+3. Profile perusahaan
+PDAM atau perumda tirta pakuan adalah perusahaan milik pemerintahan kota bogor yang memproduksi air bersih untuk memenuhi kebutuhan air di seluruh kota bogor, sedikit sejarah perumda tirta pakuan sudah ada sejak pemerintahan belanda tepatnya pada tahun 1918 pada saat itu nama dari perumda tirta pakuan adalah Buitenzorg
+
+4. Bidang yang diisi
+Command Center adalah sebuah tempat yang digunakan untuk memberikan perintah terpusat untuk beberapa tujuan
+di pdam command center berfungsi untuk memantau berapa liter air yang diproduksi, seberapa banyak air yang terbuang, dan perjalanan air di dalam pipa menggunakan aplikasi yang dimiliki yaitu scada system
+
+5. Struktur Organisasi
+ya ini adalah struktur organisasi perumda tirta pakuan di mulai dari wali kola pak bima arya
+
+6. Daftar kegiatan
+daftar kegiatan yang saya lakukan selama pkl adalah mengoprasikan ruangan command center, membatu mempersiapkan jika ada rapat, dan membuat 3d bangunan menggunakan aplikasi SketchUp
+	- ini adalah foto ruangan command center kegiatan yang biasanya saya lakukan pertama tama menyalakan komputer dan tv, setelah dinyalakan saya mengatur apa saya yang biasa di tampilkan di ruangan command center ini 
+
+6. Alat yang Digunakan di kantor
+	1. SketchUp
+		SketchUp adalah sebuah aplikasi desain grafis yang di gunakan untuk membuat 3d desain seperti 3d rumah 
+		atau gedung 
+	
+7. Alat yang digunakan di materi jurusan
+	1. Visual Sudio Code
+		Visual Studio code adalah software code editor gratis buatan microsoft yang digunakan untuk menuliskan baris baris kode untuk pembuatan aplikasi, web ataupun game
+	2. HTML
+		HTML atau hyper text markup adalah sebuah bahasa yang berfungsi untuk membuat struktur website yang			berisi baris text dan gambar
+	3. CSS 3
+		CSS atau cascading style sheet adalah sebuah bahasa yang berfungsi untuk memberikan style pada halaman  		halaman html yang sudah kita buat ( seperti menambahkan warna, merubah ukuran text dan gambar,)
+	4. JavaScript
+		JavaScript adalah bahasa pemrograman yang digunakan untuk membuat website menjadi interaktif, bahasa   		ini juga bisa digunakan untuk membuat game
+	

@@ -1,0 +1,22 @@
+<a href="" class="button button__header">Login</a>
+
+
+<!--Revisi-->
+- Flowchart
+- Tidak jadi menyatukan laptop office dan bisnis
+- Tidak jadi menggunakan login karena ini web informasi
+<!--Update-->
+- Mengganti tulisan menjadi logo di catalog gaming site (selesai)
+- Menambahkan dan membuat site kategori laptop bisnis (selesai)
+	• LIst laptop bisnis yang ditambahkan 
+	1. T15p Gen 3 (15" Intel)
+	2. T16 (16" Intel)
+	3. T16 (16'' AMD)
+	4. T14s Gen 3 (14'' AMD)
+	5. T14s Gen 3 (14'' Intel)
+	6. T14 Gen 3 (14'' AMD)
+	7. T14 Gen 3 (14'' Intel)
+	8. ThinkPad T15p Gen 2
+- Ngelink dari kategori kembali ke landing page (selesai)
+- Menghilangkan login button (selesai)
+- ketika gambar dan nama laptop di klik langsung ke wesite resmi (selesai)

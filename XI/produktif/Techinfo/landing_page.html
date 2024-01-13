@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+    <html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/landing_page.css">
+
+        <title>Techinfo</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Techinfo</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Beranda</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">Kategori</a>
+                        </li>
+                        <i class='bx bx-toggle-left change-theme' id="theme-button"></i>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--=============== HOME ===============-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <img src="assets/img/laptop.png" class="svg__img svg__color home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__title">Bingung Pilih <br> Laptop <span class="auto-type home__title"></span></h1>
+                        <p class="home__description">Disini kami akan membantu anda menemukan laptop yang sesuai dengan kebutuhan anda</p>
+
+                        <a href="#services" class="button">Jelajahi</a>
+
+                    </div>   
+                </div>
+            </section>
+
+            <!--=============== SERVICES ===============-->
+            <section class="services section container" id="services">
+                <h2 class="section__title">Kategori</h2>
+                <div class="services__container grid">
+                    <div class="services__data">
+                        <h3 class="services__subtitle">Office</h3>
+                        <img src="assets/img/asus/zenbook_duo-removebg-preview.png" alt="Zenbook duo" class="svg__color services__img">
+                        <p class="services__description">Laptop dengan performa menengah ke atas</p>
+                        <div>
+                            <a href="office.html" class="button button-link">Lebih Lanjut</a>
+                        </div>
+                    </div>
+
+                    <div class="services__data">
+                        <h3 class="services__subtitle">Gaming</h3>
+                        <img src="assets/img/asus/zephyrus duo.png" alt="zephyrus duo" class="svg__color services__img">
+                        <p class="services__description">Laptop dengan performa tinggi dan pendinginan yang optimal</p>
+                        <div>
+                            <a href="gaming.html" class="button button-link">Lebih Lanjut</a>
+                        </div>
+                    </div>
+
+                    <div class="services__data">
+                        <h3 class="services__subtitle">Bisnis</h3>
+                        <img src="assets/img/lenovo/bisnis/thinkpad t15p gen 3.png" alt="zephyrus duo" class="svg__color services__img">
+                        <p class="services__description">Laptop dengan sitem keamanan yang tinggi</p>
+                        <div>
+                            <a href="bisnis.html" class="button button-link">Lebih Lanjut</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">Komunitas</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Bantuan</a></li>
+                        <li><a href="#" class="footer__link">Pertanyaan</a></li>
+                        <div class="footer__social">
+                            <a href="#" class="footer__social-link"><i class='bx bxl-facebook-circle '></i></a>
+                            <a href="#" class="footer__social-link"><i class='bx bxl-twitter'></i></a>
+                            <a href="#" class="footer__social-link"><i class='bx bxl-instagram-alt'></i></a>
+                        </div>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; Techinfo. All right reserved</p>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+        </a>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/script.js"></script>
+
+        <!-- AutoType JS -->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="assets/js/type.js"></script>
+    </body>
+</html>

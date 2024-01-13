@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="../Images/logo/IMG-20230428-WA0033.jpg" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/preloader.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="../js/preloader.js"></script>
+  </head>
+  <style>
+    body {
+      overflow-x: hidden;
+      font-family: "Montserrat";
+    }
+
+    .mapouter {
+      position: relative;
+      text-align: right;
+      border-radius: 14px;
+    }
+    .gmap_canvas {
+      overflow: hidden;
+      background: none !important;
+      width: 100%;
+      border-radius: 14px;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    }
+    .row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin: 0 10%;
+    }
+    .col {
+      width: 45%;
+      margin: 0 10px 0 10px;
+    }
+    h1 {
+      text-align: center;
+    }
+    #about-us,
+    h1 {
+      font-family: "Montserrat";
+    }
+    nav {
+      position: relative;
+      background: transparent;
+    }
+    p {
+      text-align: justify;
+    }
+    figure > img {
+      width: 500px;
+      height: 500px;
+      object-fit: cover;
+      box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+      border-radius: 7px;
+    }
+  </style>
+  <body>
+    <div class="se-pre-con"></div>
+    <nav>
+      <ul>
+        <li class="primary-nav">
+          <img src="../Images/logo/IMG-20230428-WA0033.jpg" alt="logo" />
+          <a href="../index.html">CoconutMerah</a>
+        </li>
+        <li class="secondary-nav">
+          <a href="../HTML/checkout.html">
+            <!-- <i class="fas fa-shopping-cart"></i> CART -->
+          </a>
+        </li>
+        <!-- <li class="secondary-nav"><a href="../HTML/women.html">WOMEN</a></li>
+        <li class="secondary-nav"><a href="../HTML/men.html">MEN</a></li>
+        <li class="secondary-nav">
+          <a href="../HTML/about-us.html">ABOUT US</a>
+        </li> -->
+      </ul>
+    </nav>
+    <h1>About CoconutMerah</h1>
+    <div class="row">
+      <section class="mapouter col">
+        <div class="gmap_canvas">
+          <iframe
+            width="100%"
+            height="500vw"
+            id="gmap_canvas"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d548.093267550722!2d106.83108911617713!3d-6.624053866299489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c61c5e825bf3%3A0x64712faba2c3ef3e!2sPerum%20Mutiara%20Bogor%20Raya%20RW%2017!5e0!3m2!1sid!2sus!4v1684026734930!5m2!1sid!2sus"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+          ></iframe>
+        </div>
+      </section>
+
+      <section id="about-us" class="col">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          <strong>Muhammad Dhiyaul</strong>, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque rerum non, similique officiis sed quis iusto nulla cupiditate, nemo, officia maiores earum facere? Voluptates, ipsam.
+        </p>
+        <p>
+          We are located in Nairobi, Kenya along Moi Avenue. <br />Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime obcaecati dolores eius vitae praesentium non nisi, iure tenetur. Quae cumque voluptatem vel debitis, natus officiis, laborum similique placeat culpa nesciunt exercitationem dolores a dolor voluptatibus ea ratione! Magnam, nihil reprehenderit?
+        </p>
+        <h2>Mission</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus debitis consequatur accusantium molestiae temporibus earum labore voluptates? Laborum, debitis. Eius iure rem illo aliquid ad, odit illum sunt, asperiores labore quam consequatur. Totam hic ratione quibusdam odit non consequatur cumque, aliquam neque. Repellendus consectetur eaque magnam temporibus quidem dicta possimus odit, corporis blanditiis tempore architecto iste quasi officiis id consequuntur?
+        </p>
+      </section>
+    </div>
+    <section>
+      <h1>Our Team</h1>
+      <div class="row">
+        <figure>
+          <img src="../Images/team/20230515_202754.jpg" alt="" />
+          <figcaption>
+            <h3>CoconutMerah</h3>
+            <p>
+              Teams
+            </p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="../Images/team/20230515_202342.jpg" alt="" />
+          <figcaption>
+            <h3>CoconutMerah</h3>
+            <p>Teams</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="../Images/team/20230515_202536.jpg" alt="" />
+          <figcaption>
+            <h3>CoconutMerah</h3>
+            <p>Teams</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="../Images/team/20230515_202616.jpg" alt="" />
+          <figcaption>
+            <h3>CoconutMerah</h3>
+            <p>Teams</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+  </body>
+</html>

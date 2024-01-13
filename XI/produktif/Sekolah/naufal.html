@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form</title>
+</head>
+<body>
+    <form action="" method="post" autocomplete="off">
+        <div>
+            <label for="nama">Nama: </label><br>
+            <input type="text" name="nama" id="nama" autofocus><br>
+        </div>
+        <div>
+            <label for="email">Email: </label><br>
+            <input type="email" name="email" id="email" required oninvalid="this.setCustomValidity('ini harus diisi!')" oninput="this.setCustomValidity('')"><br>
+        </div>
+        <div>
+            <label for="nohp">No hp: </label><br>
+            <input type="tel" name="nohp" id="nohp" pattern="(/+62|0)8[1-9][0-9]{6,13}$"><br>
+        </div>
+        <div>
+            <label for="warna">Pilih warna: </label><br>
+            <input type="color" name="warna" id="warna"><span class="hexa"></span><br>
+        </div>
+        <div>
+            <label for="nomor">Angka: </label><br>
+            <input type="number" name="nomor" id="nomor" min="10" max="100" step="10"><br>
+        </div>
+        <div>
+            <label for="range">Masukan Angka: </label><br>
+            <span class="awal">10</span>
+            <input type="range" name="range" id="range" min="10" max="100"><br>
+            <span class="akhir">100</span>
+        </div>
+        <div>
+            <label for="ttl">Tanggal Peminjaman: </label><br>
+            <input type="datetime-local" name="ttl" id="ttl"><br>
+        </div>
+        <div>
+            <button type="submit">Kirim!</button>
+        </div>
+    </form>
+
+    <script>
+        const range = document.querySelector('#range');
+        const awal = document.querySelector('.awal');
+        const akhir = document.querySelector('.akhir');
+
+        awal.innerHTML = range.min;
+        akhir.innerHTML = range.value;
+        range.addEventListener('input', function () {
+            akhir.innerHTML = range.value;
+        });
+
+        const warna = document.querySelector('#warna');
+        const hexa = document.querySelector('.hexa');
+
+        hexa.innerHTML = warna.value;
+        warna.addEventListener('input', function () {
+            hexa.innerHTML = warna.value;
+            hexa.style.color = warna.value
+        })
+        
+    </script>
+</body>
+</html>

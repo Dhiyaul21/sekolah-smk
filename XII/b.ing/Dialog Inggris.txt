@@ -1,0 +1,48 @@
+- Hotel
+
+room service: Hallo room service hotel kalifornia
+
+pengunjung: ya ada yang bisa di bantu
+	    aku ingin reservasi meja untuk makan malam
+
+room service: baiklah coba saya cek jadwalnya
+	      maaf tapi sepertinya reservasi tercepat itu jam 8.30 
+              apakah anda tidak keberatan
+
+pengunjung: ya itu tidak apa apa terima kasih
+
+
+- Hospital
+
+pasien yang ingin ke kamar mandi tapi tidak bisa berjalan dan ingin meminta tolong ke perawat
+
+perawat: yaa ada yang bisa saya bantu
+
+pasien: yaa apakah anda bisa menolong saya untuk ke ke kamar mandi
+karena saya masih belum bisa berjalan dengan benar
+
+tentu saja
+
+
+- Sekolah
+
+guru bk: selamat datang di ruang bk
+	 ada urusan apa anda kesini
+
+siswa: saya dari kelas .... ingin bertanya opsi tentang perkuliahan yang cocok dengan jurusan saya
+
+guru bk: ya silahkan masuk dan duduklah, kita akan bicara
+
+- restoran
+
+pelayan: ngapain lu kesini
+
+pengunjung: pake nanya, ya mau makan lah
+
+pelayan: yaudah si santai aja, duduk sana di meja 13
+
+pengunjung: mana menu yang paling mahal
+
+pelayan: kaya yang mampu aja loo
+
+pengunjung: yaudah gw pesen semuanya lama, nih duitnya (melempar duit)

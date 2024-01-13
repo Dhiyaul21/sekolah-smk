@@ -1,0 +1,10 @@
+1. sebutkan perbedaan ordinal dengan real
+2. buatlah program untuk menampilkan nilai ordinary (ordinal) menggunakan fungsi ord dari huruf a
+sampai k menggunakan tipe data 
+3. lakukan penelitian tentang fungsi succ, high, ord, dec, perd, low, dan inc terhadap type data ordinari
+dan buatlah contoh implementasinya dalam bentuk program
+
+https://www.tiktok.com/@lovealot.together/video/7091971522667007258?is_from_webapp=1&sender_device=pc&web_id=7045850463456249345
+
+canva
+https://www.canva.com/design/DAFB9SPEmqo/zBNIUUIxgoHv18IoNDjTGQ/edit?category=tACFasDnyEQ#

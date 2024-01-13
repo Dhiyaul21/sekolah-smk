@@ -1,0 +1,61 @@
+margin auto (untuk memberi batas secara otomatis secara horrizontal)
+padding (untuk memberi batas di balam border secara transparant)
+text-align (untuk mengatur posisi text)
+text-align: justify (untuk merapihkan setiap kata)
+
+• Text decoration 
+- none
+- underline
+- overline
+- line-through
+ - color
+ - style (solid dashed dotted double dll)
+ - thickness
+- vertical-align
+ - super
+ - sub
+ -baseline
+
+• Text-transform
+uppercase (HURUF BESAR SEMUA)
+lowercase (huruf kecil semua)
+capitalize (Yang Besar Cuma Yang Awal Saja)
+
+• Space-Text
+text-indent (memberi cekungan ke dalam seperiti pada awal paragraf)
+letter-space (mengatur spasi di semua huruf kata kalimat)
+word-space (mengaturi spasi di setiap kata)
+line-height (mengatur jarak secara vertical)
+
+• Text-Shadow (memberi bayangan pada teks)
+text-shadow: 1px;
+
+
+•Font Style
+font-variant: normal/small-caps (Teks menjadi uppercase tetapi tetap seperti ukuran lowercase
+font-weight: bold; (untuk mengubah teks menjadi tebal)
+urutan font singka (style -> variant -> weight -> size -> jenis font
+
+{ agar ketika di tambah padding ukuran wadah tetap sama makan menggunakan 'box-sizing: border-box' }
+
+
+•display
+inline (menjadi sejajar dan tidak bisa di rubah tinggin/lebarnya)
+block (dia full sebaris, jadi ketika ada element baru ditambahkan akan ke bawah)
+inline-block (menjadi sebaris dan bisa di rubah tinggi/lebarnya)
+
+• overflow
+visible (default)
+auto (otomatis menambahkan scrol di tempatnya jika isinya sudah kelebihan)
+scroll (menambahkan scroll pada tempatnya)
+hidden (akan menyembunyikan konten yang berlebih)
+
+•position
+static (default)
+relative (memajukan elemen satu dimensi dan masih ada di tempat sebelumnya)
+absolute (membuat element ke dimensi yang berbeda dan menghilangkan parent nya)
+fixed (membuat elemen tidak iku ke scroll seperti stiky navbar)
+
+• z-index 
+semakin besar angka makan akan semakin depan, dan sebaliknya
+
